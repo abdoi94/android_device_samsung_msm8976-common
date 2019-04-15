@@ -18,6 +18,9 @@
 # inherit from the proprietary version
 $(call inherit-product, vendor/samsung/msm8976-common/msm8976-common-vendor.mk)
 
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
