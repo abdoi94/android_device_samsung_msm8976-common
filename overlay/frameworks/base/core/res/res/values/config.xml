@@ -234,4 +234,11 @@
 
     <!-- For performance and storage reasons, limit the number of fingerprints per user -->
     <integer name="config_fingerprintMaxTemplatesPerUser">4</integer>
+    
+        <!-- Internal default to navigation bar value -->
+    <bool name="config_defaultToNavigationBar">false</bool>
+
+    <!-- Button brightness -->
+    <bool name="config_button_brightness_support">true</bool>
+    <integer name="config_button_brightness_default">255</integer>
 </resources>
