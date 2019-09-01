@@ -104,5 +104,6 @@
          services/core/java/com/android/server/policy/policy/impl/PhoneWindowManager.java
     -->
     <integer name="config_longPressOnAppSwitchBehavior">1</integer>
-
+    
+    <bool name="config_show_homeWake">true</bool>
 </resources>
