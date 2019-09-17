@@ -248,7 +248,7 @@ PRODUCT_PACKAGES += \
 
 # Recovery
 PRODUCT_PACKAGES += \
-    librecovery_updater_samsung
+  librecovery_updater_samsung
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
